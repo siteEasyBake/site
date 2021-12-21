@@ -1,0 +1,26 @@
+.pb img{
+    -webkit-transform: scale(0.8); 
+    -webkit-transition-duration: 0.5s;
+    opacity: 1; 
+    margin: 0 0px 5px 0;
+}
+   
+.pb img:hover{
+    -webkit-transform: scale(1.1);
+    box-shadow:0px 0px 30px gray; 
+    -webkit-box-shadow:0px 0px 30px gray; 
+    -moz-box-shadow:0px 0px 30px gray; 
+    opacity: 1;
+}
+
+.i {
+    width: 22%;
+    height: auto;
+}
+
+.pb {
+    display: block;
+    padding-top: 60px;
+    margin-left: 10%;
+    z-index: 1;
+}

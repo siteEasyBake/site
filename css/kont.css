@@ -1,0 +1,35 @@
+.map {
+    display: flex;
+    margin-left: 16%;
+    padding-top: 100px;
+    width: 50%;
+    height: auto;
+    min-height: 500px;
+}
+
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+    width: 25px;
+    height: auto;
+   }
+
+.media_blok {
+    margin-top: -390px;
+    position: absolute;
+    margin-left: 70%;
+}
+
+.p {
+    margin-bottom: 70px;
+}
+
+@media(max-width: 700px) {
+    .map {
+        display: flex;
+        margin-left: 2%;
+    }
+    .media_blok {
+        margin-left: 55%;
+  }
+}
